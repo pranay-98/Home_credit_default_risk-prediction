@@ -51,14 +51,14 @@ I evaluated the model performance by monitoring loss functions such as CXE and H
 
 Using Tensorboard I visualized the CXE loss for training data for each epoch, which allowed us to evaluate the performance of the model over time.
 
-Results
+# Results
 
 XGBOOST achieved a Test AUC score of 0.7537
 Multi-layer neural network model achieved AUC scores of 0.588 for train data and 0.5172 for test data
 Single-layer model achieved an AUC score of 0.7558 for test data
 The results of our models can be found in the table above. As we can see, XGBOOST achieved a Test AUC score of 0.7537, which is a good score. However, the multi-layer neural network model achieved AUC scores of 0.588 for train data and 0.5172 for test data, which is not as good as XGBOOST. The single-layer model achieved an AUC score of 0.7558 for test data, which is better than the multi-layer model but still not as good as XGBOOST.
 
-Conclusion
+# Conclusion
 
 In this project, I built a model to predict the likelihood of an applicant defaulting on a loan. I used various factors such as previous loan history, monthly income, previous loan applications, and other income sources to build our model. I used Logistic Regression, decision tree approaches using Xgboost, Random Forest and SVM to experiment and improve on the models. Additionally, wIe also built a multi-layer neural network model in Pytorch. Our results show that XGBOOST performed the best, achieving a Test AUC score of 0.7537. However, the neural network model performed poorly with AUC scores of 0.588 for train data and 0.5172 for test data.
 
